@@ -8,6 +8,10 @@ export const light = {
         first: "rgba(255, 0, 0, .6)",
         second: "rgba(255, 165, 0, .7)"
     },
+    slider: {
+        inner: "#362725",
+        background: "rgba(255, 105, 0)"
+    },
     footer: {
         top: "#362725",
         bottom: "#403837"
@@ -23,6 +27,10 @@ export const dark = {
     gradients: {
         first: "rgba(93, 0, 255, .7)",
         second: "rgba(0, 190, 255, .6)"
+    },
+    slider: {
+        inner: "#252936",
+        background: "rgba(0, 55, 255)"
     },
     footer: {
         top: "#252936",

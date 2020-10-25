@@ -120,45 +120,6 @@ export const Description = styled.div`
 
 // Slider
 
-export const Slider = styled.div`
-    margin-top: 45px;
-    position: relative;
-`
-
-export const SliderItems = styled.div`
-    display: flex;
-    justify-content: center;
-    
-    @media (min-width: 576px) {
-        display: flex;
-        justify-content: space-around;
-    }
-`
-
-export const SliderItem = styled.div`
-    &:not(:first-child){
-        display: none;
-    }
-   
-    @media (min-width: 576px) {
-        &:nth-child(2) {
-            display: block;
-        }
-    }
-    
-    @media (min-width: 768px) {
-        &:nth-child(3) {
-            display: block;
-        }
-    }
-    
-    @media (min-width: 992px) {
-        &:nth-child(4) {
-            display: block;
-        }
-    }
-`
-
 export const SliderItemImg = styled.div`
     margin: 0 auto;
     width: 130px;
@@ -185,41 +146,5 @@ export const SliderItemFeature = styled.div`
     
     @media (min-width: 1200px) {
         font-size: 20px;
-    }
-`
-
-export const SliderArrow = styled.button`
-    position: absolute;
-    display: flex;
-    top: 40%;
-    border-radius: 50%;
-    border: none;
-    width: 38px;
-    height: 38px;
-    background: #FFFFFF;
-    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.05);
-    outline: transparent;
-    cursor: pointer;
-    transition: background ease .35s;
-    
-    ${props => props.direction === "next" ? "right: 0;" : "left: 0;"}
-    
-    &:hover, &:active {
-        background: orangered;
-        
-        svg {
-            fill: #ffffff;
-        }
-    }
-    
-    svg {
-        margin: auto;
-        fill: #362725;
-        
-        ${props => props.direction === "prev" && "transform: rotate(180deg);"}
-    }
-    
-    @media (min-width: 1024px) {
-        display: none;
     }
 `
