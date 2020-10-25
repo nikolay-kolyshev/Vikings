@@ -1,0 +1,27 @@
+const TOGGLE_THEME = "TOGGLE_THEME"
+
+const initialState = {
+    theme: "light"
+}
+
+const themeUIReducer = (state = initialState, action) => {
+
+    switch (action.type) {
+
+        case TOGGLE_THEME:
+            return {
+                ...state,
+                theme: state.theme === "light" ? "dark" : "light"
+            }
+
+        default:
+            return state
+    }
+
+}
+
+export const toggleThemeAC = () => ({
+    type: TOGGLE_THEME
+})
+
+export default themeUIReducer
