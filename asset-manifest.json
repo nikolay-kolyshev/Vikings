@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Vikings/static/css/main.31f99c7f.chunk.css",
+    "main.js": "/Vikings/static/js/main.b7cb17a7.chunk.js",
+    "main.js.map": "/Vikings/static/js/main.b7cb17a7.chunk.js.map",
+    "runtime-main.js": "/Vikings/static/js/runtime-main.754d8c39.js",
+    "runtime-main.js.map": "/Vikings/static/js/runtime-main.754d8c39.js.map",
+    "static/js/2.1029c271.chunk.js": "/Vikings/static/js/2.1029c271.chunk.js",
+    "static/js/2.1029c271.chunk.js.map": "/Vikings/static/js/2.1029c271.chunk.js.map",
+    "index.html": "/Vikings/index.html",
+    "precache-manifest.3c33a9de642b7adb07a366804d27d0a0.js": "/Vikings/precache-manifest.3c33a9de642b7adb07a366804d27d0a0.js",
+    "service-worker.js": "/Vikings/service-worker.js",
+    "static/css/main.31f99c7f.chunk.css.map": "/Vikings/static/css/main.31f99c7f.chunk.css.map",
+    "static/js/2.1029c271.chunk.js.LICENSE.txt": "/Vikings/static/js/2.1029c271.chunk.js.LICENSE.txt",
+    "static/media/1.svg": "/Vikings/static/media/1.cdf92e07.svg",
+    "static/media/2.svg": "/Vikings/static/media/2.4d92cf09.svg",
+    "static/media/3.svg": "/Vikings/static/media/3.45014c63.svg",
+    "static/media/4.svg": "/Vikings/static/media/4.44852044.svg",
+    "static/media/contact-back.jpg": "/Vikings/static/media/contact-back.9d97bd4c.jpg",
+    "static/media/logo.svg": "/Vikings/static/media/logo.759629a3.svg",
+    "static/media/main-back.jpg": "/Vikings/static/media/main-back.97909454.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.754d8c39.js",
+    "static/js/2.1029c271.chunk.js",
+    "static/css/main.31f99c7f.chunk.css",
+    "static/js/main.b7cb17a7.chunk.js"
+  ]
+}
