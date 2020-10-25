@@ -1,7 +1,8 @@
 import React from "react"
-import {Company, Inner, Outer, WebSurfer} from "./style";
-import {MainLogo, MainPhoneIcon, MainPhoneLink} from "../../styles/style";
-import logo from "../../logo.svg";
+import {Company, Inner, Outer, WebSurfer} from "./style"
+import {MainLogo, MainPhoneIcon, MainPhoneLink} from "../../styles/style"
+import logo from "../../logo.svg"
+import phoneIcon from "./../../assets/images/phone.svg"
 
 const Footer = props => (
     <Outer>
@@ -12,7 +13,7 @@ const Footer = props => (
             <Company>
                 <span>© 2020 Викинги. Все права защищены.</span>
             </Company>
-            <MainPhoneIcon spacing href="tel:888"></MainPhoneIcon>
+            <MainPhoneIcon icon={phoneIcon} spacing href="tel:888"></MainPhoneIcon>
             <WebSurfer>
                 <pre>Сделано </pre>
                 <a href={props.author.link} target="_blank">{props.author.name}</a>

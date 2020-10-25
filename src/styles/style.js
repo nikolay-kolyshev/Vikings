@@ -183,7 +183,7 @@ export const MainLogo = styled.div`
 `
 
 export const MainPhoneIcon = styled.a`
-    background-image: url(./assets/images/phone.svg);
+    background-image: url(${props=>props.icon});
     min-width: 35px;
     min-height: 35px;
     background-repeat: no-repeat;

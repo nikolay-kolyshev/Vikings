@@ -3,6 +3,7 @@ import {NavLink} from "react-router-dom"
 import logo from "../../logo.svg"
 import {Outer, Inner, ThemeSwitch, Nav} from "./style"
 import {MainLogo, MainPhoneIcon, MainPhoneLink, Wrapper} from "../../styles/style"
+import phoneIcon from "./../../assets/images/phone.svg"
 
 const Header = props => (
     <Outer>
@@ -18,7 +19,7 @@ const Header = props => (
                             <input onClick={props.toggleTheme}type="checkbox" id="switch"/>
                             <label htmlFor="switch"></label>
                         </ThemeSwitch>
-                        <MainPhoneIcon href="tel:888"></MainPhoneIcon>
+                        <MainPhoneIcon icon={phoneIcon} href="tel:888"></MainPhoneIcon>
                         <MainPhoneLink>
                             <a href="tel:7(962)556-1234">{props.phoneNumber}</a>
                         </MainPhoneLink>
